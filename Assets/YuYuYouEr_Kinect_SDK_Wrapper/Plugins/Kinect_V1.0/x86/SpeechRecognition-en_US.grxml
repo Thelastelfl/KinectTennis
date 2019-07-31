@@ -1,0 +1,107 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>FORWARD</tag>
+        <one-of>
+          <item> forwards </item>
+          <item> forward </item>
+          <item> straight </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BACKWARD</tag>
+        <one-of>
+          <item> backward </item>
+          <item> backwards </item>
+          <item> back </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LEFT</tag>
+        <one-of>
+          <item> left </item>
+          <item> turn left </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RIGHT</tag>
+        <one-of>
+          <item> right </item>
+          <item> turn right </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>NEXT</tag>
+        <one-of>
+          <item> next </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>PREVIOUS</tag>
+        <one-of>
+          <item> previous </item>
+        </one-of>
+      </item>
+
+      <item>
+        <tag>hello kinect</tag>
+        <one-of>
+          <item> ok kinect </item>
+          <item> hello kinect </item>
+          <item> kinect hello </item>
+          <item> ok dora </item>
+          <item> hi dora </item>
+          <item> hello dora </item>
+          <item> dora piggy </item>
+          <item> dora hello </item>
+          <item> online kinect </item>
+          <item> kinect online </item>
+        </one-of>
+      </item>
+
+      <item>
+        <tag>over kinect</tag>
+        <one-of>
+          <item> over kinect </item>
+          <item> kinect over </item>
+          <item> kinect offline </item>
+          <item> offline kinect </item>
+          <item> leave me </item>
+          <item> leave me kinect </item>
+        </one-of>
+      </item>
+
+      <item>
+        <tag>stop</tag>
+        <one-of>
+          <item> stop </item>
+          <item> stop video </item>
+        </one-of>
+      </item>
+
+      <item>
+        <tag>start</tag>
+        <one-of>
+          <item> start </item>
+          <item> start video </item>
+        </one-of>
+      </item>
+
+      <item>
+        <tag>screen shot</tag>
+        <one-of>
+          <item> screen shot </item>
+          <item> screen snap </item>
+          <item> take photo </item>
+          <item> take photograph </item>
+          <item> take picture </item>
+          <item> screen copy </item>
+          <item> copy screen </item>
+        </one-of>
+      </item>
+
+
+    </one-of>
+  </rule>
+</grammar>

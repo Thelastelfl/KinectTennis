@@ -1,0 +1,38 @@
+﻿<grammar version="1.0" xml:lang="zh-CN" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>前进</tag>
+        <one-of>
+          <item> 前 </item>
+          <item> 前进 </item>
+          <item> 向前 </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>后退</tag>
+        <one-of>
+          <item> 后 </item>
+          <item> 向后 </item>
+          <item> 后退 </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>左转</tag>
+        <one-of>
+          <item> 左 </item>
+          <item> 向左 </item>
+          <item> 左转 </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>右转</tag>
+        <one-of>
+          <item> 右 </item>
+          <item> 向右 </item>
+          <item> 右转 </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
